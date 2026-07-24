@@ -25,7 +25,7 @@ spec:
       - name: ecr-registry-secret
       containers:
       - name: payment
-        image: robotshop/rs-payment
+        image: 267580591980.dkr.ecr.us-west-2.amazonaws.com/payment:14043d6cf766f072719f819b52e777171bc09210
         imagePullPolicy: Always
         env:
          - name: AMQP_HOST
