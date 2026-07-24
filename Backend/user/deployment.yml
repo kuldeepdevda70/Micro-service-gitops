@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: user
-        image: robotshop/rs-user:latest
+        image: 267580591980.dkr.ecr.us-west-2.amazonaws.com/user:14043d6cf766f072719f819b52e777171bc09210
         imagePullPolicy: IfNotPresent
 
         env:
