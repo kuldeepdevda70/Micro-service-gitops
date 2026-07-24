@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: robotshop/rs-catalogue:latest
+        image: 267580591980.dkr.ecr.us-west-2.amazonaws.com/catalogue:14043d6cf766f072719f819b52e777171bc09210
         imagePullPolicy: IfNotPresent
 
         ports:
