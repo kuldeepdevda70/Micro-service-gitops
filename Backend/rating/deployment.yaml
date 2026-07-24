@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: ratings
-        image: 267580591980.dkr.ecr.us-west-2.amazonaws.com/ratings:14043d6cf766f072719f819b52e777171bc09210
+        image: public.ecr.aws/j6x4g5g4/ratings:3c98ff024cc63a57eec978654944ebd4ae17b2d7
         imagePullPolicy: Always
         ports:
         - containerPort: 80
