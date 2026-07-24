@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: ratings
-        image: robotshop/rs-ratings:latest
+        image: 267580591980.dkr.ecr.us-west-2.amazonaws.com/ratings:14043d6cf766f072719f819b52e777171bc09210
         imagePullPolicy: Always
         ports:
         - containerPort: 80
