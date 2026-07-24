@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: robotshop/rs-shipping:latest
+        image: 267580591980.dkr.ecr.us-west-2.amazonaws.com/shipping:14043d6cf766f072719f819b52e777171bc09210
         imagePullPolicy: Always
 
         env:
