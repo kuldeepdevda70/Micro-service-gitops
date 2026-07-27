@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: public.ecr.aws/j6x4g5g4/web:5ebb805a7a68473410c956794c2ffe01c8bbea8f
+        image: public.ecr.aws/j6x4g5g4/web:5fa706b231f6f8bffec417cf4e4c70936f4d153c
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
