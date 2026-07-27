@@ -25,7 +25,7 @@ spec:
       - name: ecr-registry-secret
       containers:
       - name: payment
-        image: public.ecr.aws/j6x4g5g4/payment:3c98ff024cc63a57eec978654944ebd4ae17b2d7
+        image: public.ecr.aws/j6x4g5g4/payment:5ebb805a7a68473410c956794c2ffe01c8bbea8f
         imagePullPolicy: Always
         env:
          - name: AMQP_HOST
