@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: public.ecr.aws/j6x4g5g4/catalogue:3c98ff024cc63a57eec978654944ebd4ae17b2d7
+        image: public.ecr.aws/j6x4g5g4/catalogue:5ebb805a7a68473410c956794c2ffe01c8bbea8f
         imagePullPolicy: IfNotPresent
 
         ports:
